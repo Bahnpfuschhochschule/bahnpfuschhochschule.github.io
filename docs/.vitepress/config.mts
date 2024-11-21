@@ -8,7 +8,12 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Projects', link: '/markdown-examples/' },
+      { text: 'Roadmap',
+        items: [
+          { text: 'November 2024', link: 'https://bahnpfuschhochschule.github.io/roadmap/2024/november'}
+        ]
+      }
+      { text: 'Projects', link: '/projects/' },
       { text: 'Team', link: '/team/' },
     ],
 

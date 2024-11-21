@@ -3,16 +3,20 @@
 layout: home
 
 hero:
-  name: "Bahnpfuschhochschule"
-  text: "Website"
-  tagline: My great project tagline
+  name: ""
+  text: "Welcome!"
+  tagline: See Docs for our Mods, read about the latest Dev Updates and more!
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Roadmap
+      link: /roadmap
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Projects
+      link: /projects
+  image:
+    src: "./assets/bph_logo.png"
+    class: logo
+    alt: BPH Logo
 
 features:
   - title: Feature A

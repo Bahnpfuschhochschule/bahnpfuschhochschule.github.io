@@ -8,8 +8,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Projects', link: '/markdown-examples' },
-      { text: 'Team', link: '/team' },
+      { text: 'Projects', link: '/markdown-examples/' },
+      { text: 'Team', link: '/team/' },
     ],
 
     logo: './assets/bph_logo.png',

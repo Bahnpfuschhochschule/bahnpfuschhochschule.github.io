@@ -16,7 +16,11 @@ const members = [
     name: 'Foobian',
     links: [
       { icon: 'github', link: 'https://github.com/FoobianBlock' },
-      { icon: '', link: 'https://www.trainsimcommunity.com/user/foobian' }
+      { icon: {
+          svg: '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>'
+        },
+        link: 'https://www.trainsimcommunity.com/user/foobian' 
+      }
     ]
   },
   {
@@ -24,14 +28,21 @@ const members = [
     name: 'Redstoneia',
     links: [
       { icon: 'github', link: 'https://github.com/Redstoneia' },
-      { icon: '', link: 'https://www.trainsimcommunity.com/user/redstoneia' }
+      { icon: {
+        svg: '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>'
+          },
+          link: 'https://www.trainsimcommunity.com/user/redstoneia' 
+      }
     ]
   },
   {
     avatar: 'https://www.trainsimcommunity.com/user-avatar/manny?width=192',
     name: 'Manny',
     links: [
-      { icon: '', link: 'https://www.trainsimcommunity.com/user/manny' }
+      { icon: {
+        svg: '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 36 36" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>'
+      },
+      link: 'https://www.trainsimcommunity.com/user/manny' }
     ]
   }
 ]

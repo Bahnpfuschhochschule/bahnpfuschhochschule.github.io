@@ -14,7 +14,7 @@ hero:
       text: Projects
       link: /projects
   image:
-    src: "./assets/bph_logo.png"
+    src: "/bph_logo.png"
     class: logo
     alt: BPH Logo
 

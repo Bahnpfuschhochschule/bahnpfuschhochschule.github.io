@@ -10,7 +10,7 @@ export default defineConfig({
       { text: 'Home', link: '/' },
       { text: 'Roadmap',
         items: [
-          { text: 'November 2024', link: 'https://bahnpfuschhochschule.github.io/roadmap/2024/november'}
+          { text: 'November 2024', link: '/roadmap/2024/november/'}
         ]
       },
       { text: 'Projects', link: '/projects/' },
@@ -23,8 +23,7 @@ export default defineConfig({
       {
         text: 'Projects',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Frankfurt Fulda EP', link: '/projects/frankfurt-fulda-ep' }
         ]
       },
       {

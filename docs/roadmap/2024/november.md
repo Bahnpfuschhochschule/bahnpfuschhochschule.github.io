@@ -5,14 +5,14 @@
 ## TL/DR
 
 ### Newly in production:
-- EANOS Mini EP
-- Austrian EMU
+- [EANOS Mini EP](#eanos-mini-ep)
+- [Austrian EMU](#austrian-emu)
   
 ### In production / release tba:
-- Update to the 612 EP
-- Frankfurt Fulda EP
-- Update to the FTF 146 SM
-- TRAXX Private company livery pack
+- [Update to the 612 EP](#update-to-the-612-enhancement-pack)
+- [Frankfurt Fulda EP](#frankfurt-fulda-eep)
+- [Update to the FTF 146 SM](#ftf-146-sound-mod)
+- [TRAXX Private company livery pack](#traxx-ac2-private-companies)
 
 In this post we, the Bahnpfuschhochschule, are presenting our first roadmap of our current projects. Due to high demand from the community and also the extent of our projects, we figured that this will grant an easier insight.
 
@@ -65,16 +65,22 @@ We won't spill too much information today, but here are a few things, we will al
 - Station announcements
 - More to be announced
 
+![hlb_628.webp](/public/roadmap_november_24/hlb_628.webp)
+
+![ftf_425.webp](/public/roadmap_november_24/ftf_425.webp)
+
 ## FTF 146 sound mod
 
-Speaking of Frankfurt Fulda already, our very liked 146 sound mod, created by Foobian and Raph, will get updated soon...
-It will add brand new recording samples for things such as the gearbox, horn (courtsey of Markus) and many more which will enhance the driving experience even more!
+Speaking of Frankfurt Fulda already, our very liked 146 sound mod, created by `@Foobian` and `@Raph`, will get updated soon...
+It will add brand new recording samples for things such as the gearbox, horn (courtesy of `@Markus`) and many more which will enhance the driving experience even more!
 This mod will also merge with the FTF EEP once it's ready to release.
 
-## Traxx AC2 Private Companies Livery Pack
+## TRAXX AC2 Private Companies
 
-Last but not least the probably biggest repaint pack with currently over 70 unique repaints for the BR 185 family made by Mabitze and he isn't finished yet
-Following companys are currently represented in the repaint pack:
+![traxx_private_companies.webp](/public/roadmap_november_24/traxx_private_companies.webp)
+
+Last but not least the probably biggest repaint pack with currently over 70 unique repaints for the BR 185 family made by `@Mabitze` and he isn't finished yet
+Following companies are currently represented in the repaint pack:
 
 - Lokomotion
 - ITL

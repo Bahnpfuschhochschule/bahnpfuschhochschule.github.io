@@ -12,7 +12,7 @@ export default defineConfig({
       { text: 'Team', link: '/team/' },
     ],
 
-    logo: './assets/bph_logo.png',
+    logo: '/bph_logo.png',
 
     sidebar: [
       {

@@ -1,12 +1,6 @@
 # Roadmap November 2024
 
-![roadmap](/public/roadmap_november_24.webp)
-
-## Video
-
-<div class="video-container">
-  <iframe class="video-iframe" width="100%" src="https://www.youtube.com/embed/3Qa4BeiL5Qw?si=-K7YdCCIMOcJ0UI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
+![roadmap](/public/roadmap_november_24/overview.webp)
 
 ## TL/DR
 
@@ -21,23 +15,34 @@
 - TRAXX Private company livery pack
 
 In this post we, the Bahnpfuschhochschule, are presenting our first roadmap of our current projects. Due to high demand from the community and also the extent of our projects, we figured that this will grant an easier insight.
-Due to limitations in the blogpost feature the pictures will be seperate in dropdowns under the specific mod article
+
+<div class="video-container">
+  <iframe class="video-iframe" width="100%" src="https://www.youtube.com/embed/3Qa4BeiL5Qw?si=-K7YdCCIMOcJ0UI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</div>
 
 ## EANOS Mini EP
 
-The Eanos mini EP, created by GER/JUSI Lp with the help of Eric_0815, will host a variety of new textures and weathered looks. It will also include new types of cargo, such as scrap metal blocks and logs.
+![EANOS Mini EP](/public/roadmap_november_24/eanos_pic_1.webp)
+
+The Eanos mini EP, created by `@GER/JUSI Lp` with the help of `@Eric_0815`, will host a variety of new textures and weathered looks. It will also include new types of cargo, such as scrap metal blocks and logs.
 The new textures will be randomized, meaning that passing by freight trains won't be all that boring anymore.
 When spawning the freight car, you can pick between scrap metal loads or logs as your freight.
 You will also have the ability, to place down the end of train boards at each end of the car by clicking the designated holder
 
+![EANOS on a Bridge](/public/roadmap_november_24/eanos_pic_2.webp)
+
 ## Austrian EMU
 
+![What EMU could this be?](/public/roadmap_november_24/austrian_emu_sneakpeek.webp)
+
 We proudly present: our first own electric multiple unit.
-Almost all members of the BPH will work on this mod with additional help from Nagiphaaa.
+Almost all members of the BPH will work on this mod with additional help from `@Nagiphaaa`.
 
 ## Update to the 612 Enhancement Pack
 
-The well recived mod for the DB BR 612 mainly made by Alexander L. and Maggus will be updated soon with even more features and QOL improvements.
+![Cab of DB BR 612](/public/roadmap_november_24/br612_cab.webp)
+
+The well recived mod for the DB BR 612 mainly made by `@Alexander L.` and `@Maggus` will be updated soon with even more features and QOL improvements.
 
 - Redone joint sound simulation and samples
 - Redone flange simulation
@@ -86,4 +91,4 @@ Most of the liveriers feature number-dependant decals and locomotive names. Deca
 We hope the roadmap was nice to read and we would really welcome feedback on how to improve it and if it's even worth it to create one instead of just posting it into the modding channel.
 If you want to check on current WIP shots of our mods or want to ask us some questions, head over to the tsw-modding chat on the TSC-discord
 
-Roadmap written by Markus and checked by Raph and Foobian
+Roadmap written by `@Markus` and checked by `@Raph` and `@Foobian`.

@@ -12,7 +12,7 @@ export default defineConfig({
         items: [
           { text: 'November 2024', link: 'https://bahnpfuschhochschule.github.io/roadmap/2024/november'}
         ]
-      }
+      },
       { text: 'Projects', link: '/projects/' },
       { text: 'Team', link: '/team/' },
     ],

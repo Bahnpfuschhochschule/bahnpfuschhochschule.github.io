@@ -1,3 +1,3 @@
 # Frankfurt - Fulda EP
 
-![roadmap](/roadmap_november_24.webp)
+![roadmap](/public/roadmap_november_24.webp)

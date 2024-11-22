@@ -20,19 +20,27 @@
 
 Get a few impressions of this Expansionpack!
 
-![pic_1.webp](/projects/br-612-ep/pic_1.webp)
-
-![pic_2.webp](/projects/br-612-ep/pic_2.webp)
-
-![pic_3.webp](/projects/br-612-ep/pic_3.webp)
-
-![pic_4.webp](/projects/br-612-ep/pic_4.webp)
-
-![pic_5.webp](/projects/br-612-ep/pic_5.webp)
-
-![pic_6.webp](/projects/br-612-ep/pic_6.webp)
-
-![pic_7.webp](/projects/br-612-ep/pic_7.webp)
+<div class="zoomable">
+    <img class="img-zoomable" src="/projects/br-612-ep/pic_1.webp" alt="Bahnland Bayern BR 612">
+</div>
+<div class="zoomable">
+    <img class="img-zoomable" src="/projects/br-612-ep/pic_2.webp" alt="Zg2">
+</div>
+<div class="zoomable">
+    <img class="img-zoomable" src="/projects/br-612-ep/pic_3.webp" alt="Foggy taillights">
+</div>
+<div class="zoomable">
+    <img class="img-zoomable" src="/projects/br-612-ep/pic_4.webp" alt="Snowy day in munich">
+</div>
+<div class="zoomable">
+    <img class="img-zoomable" src="/projects/br-612-ep/pic_5.webp" alt="Bwegt BR 612 heading to Wertheim">
+</div>
+<div class="zoomable">
+    <img class="img-zoomable" src="/projects/br-612-ep/pic_6.webp" alt="InterCity BR 612 in Dresden">
+</div>
+<div class="zoomable">
+    <img class="img-zoomable" src="/projects/br-612-ep/pic_7.webp" alt="Two 612's passing a Bridge">
+</div>
 
 ## Requirements
 

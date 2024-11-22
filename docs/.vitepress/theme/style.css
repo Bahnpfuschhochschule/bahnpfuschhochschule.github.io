@@ -22,10 +22,28 @@ body {
 
 .VPImage {
     border-radius: 12px;
+
+}
+
+.zoomable {
+    width: 100%;
+    overflow: hidden;
+    display: inline-block;
+    position: relative;
+    border-radius: 12px;
 }
 
 img, video {
     max-width: 100%;
     height: auto;
     border-radius: 12px;
+}
+
+.img-zoomable {
+    transition: transform 1s ease;
+}
+
+.img-zoomable:hover {
+    width: 100%;
+    transform: scale(1.3);
 }

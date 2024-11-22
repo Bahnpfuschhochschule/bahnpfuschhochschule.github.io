@@ -1,6 +1,6 @@
 # Roadmap November 2024
 
-![roadmap](/public/roadmap_november_24/overview.webp)
+![roadmap](/roadmap_november_24/overview.webp)
 
 ## TL/DR
 
@@ -20,27 +20,35 @@ In this post we, the Bahnpfuschhochschule, are presenting our first roadmap of o
   <iframe class="video-iframe" width="100%" src="https://www.youtube.com/embed/3Qa4BeiL5Qw?si=-K7YdCCIMOcJ0UI0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
-## EANOS Mini EP
+## Eanos Mini EP
 
-![EANOS Mini EP](/roadmap_november_24/eanos_pic_1.webp)
+<div class="zoomable">
+    <img class="img-zoomable" src="/roadmap_november_24/eanos_pic_1.webp" alt="Eanos on Bridge">
+</div>
 
 The Eanos mini EP, created by `@GER/JUSI Lp` with the help of `@Eric_0815`, will host a variety of new textures and weathered looks. It will also include new types of cargo, such as scrap metal blocks and logs.
 The new textures will be randomized, meaning that passing by freight trains won't be all that boring anymore.
 When spawning the freight car, you can pick between scrap metal loads or logs as your freight.
 You will also have the ability, to place down the end of train boards at each end of the car by clicking the designated holder
 
-![EANOS on a Bridge](/roadmap_november_24/eanos_pic_2.webp)
+<div class="zoomable">
+    <img class="img-zoomable" src="/roadmap_november_24/eanos_pic_2.webp" alt="Eanos freight">
+</div>
 
 ## Austrian EMU
 
-![What EMU could this be?](/roadmap_november_24/austrian_emu_sneakpeek.webp)
+<div class="zoomable">
+    <img class="img-zoomable" src="/roadmap_november_24/austrian_emu_sneakpeek.webp" alt="Austrian EMU Sneakpeek">
+</div>
 
 We proudly present: our first own electric multiple unit.
 Almost all members of the BPH will work on this mod with additional help from `@Nagiphaaa`.
 
-## Update to the 612 Enhancement Pack
+## BR 612 EP Update
 
-![Cab of DB BR 612](/roadmap_november_24/br612_cab.webp)
+<div class="zoomable">
+    <img class="img-zoomable" src="/roadmap_november_24/br612_cab.webp" alt="BR 612 Cab">
+</div>
 
 The well recived mod for the DB BR 612 mainly made by `@Alexander L.` and `@Maggus` will be updated soon with even more features and QOL improvements.
 
@@ -52,6 +60,8 @@ The well recived mod for the DB BR 612 mainly made by `@Alexander L.` and `@Magg
 - Many more new sound changes for you to find out
 - Improved throttle simulation
 - Implementation of the GSM-R!
+
+You can read more about the BR 612 Expansionpack [here](/projects/br-612-ep.md).
 
 ## Frankfurt Fulda EEP
 
@@ -65,9 +75,12 @@ We won't spill too much information today, but here are a few things, we will al
 - Station announcements
 - More to be announced
 
-![hlb_628.webp](/roadmap_november_24/hlb_628.webp)
-
-![ftf_425.webp](/roadmap_november_24/ftf_425.webp)
+<div class="zoomable">
+    <img class="img-zoomable" src="/roadmap_november_24/hlb_628.webp" alt="HLB BR 628">
+</div>
+<div class="zoomable">
+    <img class="img-zoomable" src="/roadmap_november_24/ftf_425.webp" alt="RMV BR 425">
+</div>
 
 ## FTF 146 sound mod
 
@@ -77,7 +90,9 @@ This mod will also merge with the FTF EEP once it's ready to release.
 
 ## TRAXX AC2 Private Companies
 
-![traxx_private_companies.webp](/roadmap_november_24/traxx_private_companies.webp)
+<div class="zoomable">
+    <img class="img-zoomable" src="/roadmap_november_24/traxx_private_companies.webp" alt="TRAXX Overview">
+</div>
 
 Last but not least the probably biggest repaint pack with currently over 70 unique repaints for the BR 185 family made by `@Mabitze` and he isn't finished yet
 Following companies are currently represented in the repaint pack:

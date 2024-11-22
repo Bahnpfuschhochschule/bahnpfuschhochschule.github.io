@@ -8,11 +8,14 @@ hero:
   tagline: See Docs for our Mods, read about the latest Dev Updates and more!
   actions:
     - theme: brand
-      text: Roadmap
-      link: /roadmap
-    - theme: alt
       text: Projects
       link: /projects
+    - theme: alt
+      text: Team
+      link: /team
+    - theme: alt
+      text: Train Sim Community
+      link: https://www.trainsimcommunity.com/user/bahnpfuschhochschule
   image:
     src: "/bph_logo.png"
     class: logo

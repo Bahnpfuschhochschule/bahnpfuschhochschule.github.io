@@ -55,6 +55,10 @@ export default defineConfig({
 
     footer: {
       copyright: 'Copyright © 2024, <a href="https://github.com/Bahnpfuschhochschule">BPH</a>'
+    },
+
+    search: {
+      provider: 'local'
     }
   },
 

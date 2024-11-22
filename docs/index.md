@@ -22,11 +22,14 @@ hero:
     alt: BPH Logo
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: November 2024 Roadmap
+    link: /roadmap/2024/november
+    details: See the latest updates for our projects and get a glimpse at future projects.
+  - title: BR 612 EP
+    link: /projects/br-612-ep
+    details: Enhancements for the BR 612, including new sounds, more functionality and more...
+  - title: Frankfurt - Fulda EEP
+    link: /projects/frankfurt-fulda-eep
+    details: Enjoy a more realistic Frankfurt - Fulda Line with this EEP.
 ---
 

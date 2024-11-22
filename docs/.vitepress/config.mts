@@ -9,12 +9,13 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Roadmap',
+        activeMatch: '/roadmap/',
         items: [
           { text: 'November 2024', link: '/roadmap/2024/november/'}
         ]
       },
-      { text: 'Projects', link: '/projects/' },
-      { text: 'Team', link: '/team/' },
+      { text: 'Projects', activeMatch: '/projects/', link: '/projects/' },
+      { text: 'Team', activeMatch: '/team/', link: '/team/' },
     ],
 
     logo: '/bph_logo.png',
@@ -22,12 +23,28 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Projects',
+        link: '/projects/',
+        activeMatch: '/projects/',
+        collapsed: false,
         items: [
-          { text: 'Frankfurt Fulda EP', link: '/projects/frankfurt-fulda-ep' }
+          { text: 'Route mods',
+            items: [
+              { text: 'Frankfurt-Fulda EEP', link: '/projects/frankfurt-fulda-eep' },
+            ]
+          },
+          {
+            text: 'Vehicle mods',
+            items: [
+              { text: 'BR 146 SM', link: '/projects/br-146-sm' },
+              { text: 'BR 612 EP', link: '/projects/br-612-ep' },
+              { text: 'Austrian EMU', link: '/projects/austrian-emu' },
+              { text: 'Eanos', link: '/projects/eanos-mini-ep' },
+            ]
+          }
         ]
       },
       {
-        text: 'Team', link: '/team'
+        text: 'Team', activeMatch: '/team/', link: '/team/'
       }
     ],
 

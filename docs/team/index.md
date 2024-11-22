@@ -2,26 +2,7 @@
 import { VPTeamMembers } from 'vitepress/theme';
 
 const members = [
-  {
-    avatar: 'https://www.trainsimcommunity.com/user-avatar/derm3-2?width=192',
-    name: 'Der M3',
-    links: [
-      { icon: {
-          svg: '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>'
-        },
-        link: 'https://www.trainsimcommunity.com/user/derm3-2' 
-      }
-    ]
-  },
-  {
-    avatar: 'https://www.github.com/Evolinox.png',
-    name: 'Evolinox',
-    links: [
-      { icon: 'github', link: 'https://github.com/Evolinox' },
-      { icon: 'youtube', link: 'https://www.youtube.com/channel/UCXXdteIrezyZ_PbtmHTGLgA'},
-      { icon: 'instagram', link: 'https://www.instagram.com/pascal.jedi/' }
-    ]
-  },
+
   {
     avatar: 'https://avatars.githubusercontent.com/u/89279039?v=4',
     name: 'Foobian',
@@ -31,6 +12,36 @@ const members = [
           svg: '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>'
         },
         link: 'https://www.trainsimcommunity.com/user/foobian' 
+      }
+    ]
+  },
+  {
+    avatar: '/avatars/raphael.webp',
+    name: 'Raph',
+    links: [
+      { icon: {
+          svg: '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>'
+        },
+        link: 'https://www.trainsimcommunity.com/user/raphael-2' 
+      }
+    ]
+  },
+  {
+    avatar: '/avatars/evolinox.gif',
+    name: 'Evolinox',
+    links: [
+      { icon: 'github', link: 'https://github.com/Evolinox' },
+      { icon: 'youtube', link: 'https://www.youtube.com/channel/UCXXdteIrezyZ_PbtmHTGLgA'}
+    ]
+  },
+  {
+    avatar: '/avatars/alexander.gif',
+    name: 'Alexander',
+    links: [
+      { icon: {
+          svg: '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>'
+        },
+        link: 'https://www.trainsimcommunity.com/user/alexander-l' 
       }
     ]
   },
@@ -79,6 +90,17 @@ const members = [
     ]
   },
   {
+    avatar: 'https://www.trainsimcommunity.com/user-avatar/derm3-2?width=192',
+    name: 'Der M3',
+    links: [
+      { icon: {
+          svg: '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>'
+        },
+        link: 'https://www.trainsimcommunity.com/user/derm3-2' 
+      }
+    ]
+  },
+  {
     avatar: '/avatars/maggus.webp',
     name: 'Maggus',
     links: [
@@ -98,28 +120,6 @@ const members = [
         svg: '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>'
           },
           link: 'https://www.trainsimcommunity.com/user/redstoneia' 
-      }
-    ]
-  },
-  {
-    avatar: '/avatars/raphael.webp',
-    name: 'Raph',
-    links: [
-      { icon: {
-          svg: '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>'
-        },
-        link: 'https://www.trainsimcommunity.com/user/raphael-2' 
-      }
-    ]
-  },
-  {
-    avatar: '/avatars/alexander.gif',
-    name: 'Alexander',
-    links: [
-      { icon: {
-          svg: '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>'
-        },
-        link: 'https://www.trainsimcommunity.com/user/alexander-l' 
       }
     ]
   }

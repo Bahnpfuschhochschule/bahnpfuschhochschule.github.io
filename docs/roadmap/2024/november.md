@@ -22,25 +22,25 @@ In this post we, the Bahnpfuschhochschule, are presenting our first roadmap of o
 
 ## EANOS Mini EP
 
-![EANOS Mini EP](/public/roadmap_november_24/eanos_pic_1.webp)
+![EANOS Mini EP](/roadmap_november_24/eanos_pic_1.webp)
 
 The Eanos mini EP, created by `@GER/JUSI Lp` with the help of `@Eric_0815`, will host a variety of new textures and weathered looks. It will also include new types of cargo, such as scrap metal blocks and logs.
 The new textures will be randomized, meaning that passing by freight trains won't be all that boring anymore.
 When spawning the freight car, you can pick between scrap metal loads or logs as your freight.
 You will also have the ability, to place down the end of train boards at each end of the car by clicking the designated holder
 
-![EANOS on a Bridge](/public/roadmap_november_24/eanos_pic_2.webp)
+![EANOS on a Bridge](/roadmap_november_24/eanos_pic_2.webp)
 
 ## Austrian EMU
 
-![What EMU could this be?](/public/roadmap_november_24/austrian_emu_sneakpeek.webp)
+![What EMU could this be?](/roadmap_november_24/austrian_emu_sneakpeek.webp)
 
 We proudly present: our first own electric multiple unit.
 Almost all members of the BPH will work on this mod with additional help from `@Nagiphaaa`.
 
 ## Update to the 612 Enhancement Pack
 
-![Cab of DB BR 612](/public/roadmap_november_24/br612_cab.webp)
+![Cab of DB BR 612](/roadmap_november_24/br612_cab.webp)
 
 The well recived mod for the DB BR 612 mainly made by `@Alexander L.` and `@Maggus` will be updated soon with even more features and QOL improvements.
 
@@ -65,9 +65,9 @@ We won't spill too much information today, but here are a few things, we will al
 - Station announcements
 - More to be announced
 
-![hlb_628.webp](/public/roadmap_november_24/hlb_628.webp)
+![hlb_628.webp](/roadmap_november_24/hlb_628.webp)
 
-![ftf_425.webp](/public/roadmap_november_24/ftf_425.webp)
+![ftf_425.webp](/roadmap_november_24/ftf_425.webp)
 
 ## FTF 146 sound mod
 
@@ -77,7 +77,7 @@ This mod will also merge with the FTF EEP once it's ready to release.
 
 ## TRAXX AC2 Private Companies
 
-![traxx_private_companies.webp](/public/roadmap_november_24/traxx_private_companies.webp)
+![traxx_private_companies.webp](/roadmap_november_24/traxx_private_companies.webp)
 
 Last but not least the probably biggest repaint pack with currently over 70 unique repaints for the BR 185 family made by `@Mabitze` and he isn't finished yet
 Following companies are currently represented in the repaint pack:

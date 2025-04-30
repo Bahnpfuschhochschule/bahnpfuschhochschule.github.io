@@ -11,7 +11,8 @@ export default defineConfig({
       { text: 'Roadmap',
         activeMatch: '/roadmap/',
         items: [
-          { text: 'November 2024', link: '/roadmap/2024/november/'}
+          { text: 'November 2024', link: '/roadmap/2024/november/'},
+          { text: 'Februar 2025', link: '/roadmap/2025/februar/'}
         ]
       },
       { text: 'Projects', activeMatch: '/projects/', link: '/projects/' },

@@ -45,7 +45,7 @@ const members = [
     ]
   },
   {
-    avatar: 'https://www.trainsimcommunity.com/user-avatar/elena?width=96',
+    avatar: 'https://images.trainsimcommunity.com/mwGsnaEzKidMIiwU5z0HHKSztSQ=/192x192/filters:format(webp)/tscmr-prod/images/1337132447127252992.png',
     name: 'Elena',
     links: [
       { icon: {
@@ -56,7 +56,7 @@ const members = [
     ]
   },
   {
-    avatar: '/avatars/freddie.webp',
+    avatar: 'https://images.trainsimcommunity.com/ItG4p75AHV4Uz-r9sF5_4lDPOUQ=/192x192/tscmr-prod/images/1513169071999561728.png',
     name: 'Freddie',
     links: [
       { icon: {
@@ -78,7 +78,7 @@ const members = [
     ]
   },
   {
-    avatar: 'https://www.trainsimcommunity.com/user-avatar/derm3-2?width=192',
+    avatar: 'https://images.trainsimcommunity.com/JU-D_BuxnjKRt0CyoIwoRs6Ulx0=/192x192/tscmr-prod/images/1079477698481143808.jpg',
     name: 'Der M3',
     links: [
       { icon: {
@@ -89,7 +89,7 @@ const members = [
     ]
   },
   {
-    avatar: '/avatars/maggus.webp',
+    avatar: 'https://images.trainsimcommunity.com/54v2sItX4jL_D9YfPP4t-EEf8lc=/192x192/tscmr-prod/images/1321661218414145536.jpg',
     name: 'Maggus',
     links: [
       { icon: {
@@ -100,7 +100,7 @@ const members = [
     ]
   },
   {
-    avatar: 'https://avatars.githubusercontent.com/u/105156761?v=4',
+    avatar: 'https://images.trainsimcommunity.com/NE6viiRXRo2HbCwqTERpsDLg8c4=/192x192/tscmr-prod/images/1045760033309093888.png',
     name: 'Redstoneia',
     links: [
       { icon: 'github', link: 'https://github.com/Redstoneia' },
@@ -108,6 +108,28 @@ const members = [
         svg: '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>'
           },
           link: 'https://www.trainsimcommunity.com/user/redstoneia' 
+      }
+    ]
+  },
+  {
+    avatar: 'https://images.trainsimcommunity.com/8SIgxm1CoDuJ9V8-SWqtrTlEL1U=/192x192/tscmr-prod/images/1375786632517255168.png',
+    name: 'Prototype001',
+    links: [
+      { icon: {
+        svg: '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>'
+          },
+          link: 'https://www.trainsimcommunity.com/user/414298-prototype001' 
+      }
+    ]
+  },
+  {
+    avatar: 'https://images.trainsimcommunity.com/JhRLlNL83YHqt62BOe6vOUNvmL4=/192x192/tscmr-prod/images/1340683272346238976.jpg',
+    name: 'TaurusCB',
+    links: [
+      { icon: {
+        svg: '<svg xmlns="http://www.w3.org/2000/svg" width="36" height="36" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-globe"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg>'
+          },
+          link: 'https://www.trainsimcommunity.com/user/599115-taurus-cb' 
       }
     ]
   }

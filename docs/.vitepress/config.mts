@@ -8,14 +8,16 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Roadmap',
+      { text: 'Projects', activeMatch: '/projects/', link: '/projects/' },
+      { text: 'Roadmaps',
         activeMatch: '/roadmap/',
         items: [
           { text: 'August 2026', link: '/roadmap/2026/august/'},
+          { text: 'December 2025', link: '/roadmap/2025/december/'},
+          { text: 'August 2025', link: '/roadmap/2025/august/'},
           { text: 'November 2024', link: '/roadmap/2024/november/'}
         ]
       },
-      { text: 'Projects', activeMatch: '/projects/', link: '/projects/' },
       { text: 'Team', activeMatch: '/team/', link: '/team/' },
     ],
 
@@ -24,6 +26,7 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Projects',
+        link: '/projects/',
         activeMatch: '/projects/',
         collapsed: false,
         items: [
@@ -47,6 +50,14 @@ export default defineConfig({
             collapsed: false,
             items: [
               { text: 'August', link: '/roadmap/2026/august' },
+            ]
+          },
+          {
+            text: '2025',
+            collapsed: true,
+            items: [
+              { text: 'December', link: '/roadmap/2025/december'},
+              { text: 'August', link: '/roadmap/2025/august' }
             ]
           },
           {

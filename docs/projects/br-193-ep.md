@@ -4,13 +4,22 @@
 
 ## Features
 
-- Cameras
+- Fully functional Cameras with a lot of help from `@Foob`
+- EBuLa Subpages also with help from `@Foob`
+- SCMT Screen (MS IT) created by `@Mabitze`
+- A few more Audiolines supplied by `@Betjoin` and `@GERJUSILp`
+- A new Horn Sound supplied by `@Maggus`
 
 ## Gallery
 
 Get a few impressions of this Expansionpack!
 
-*Coming soon!*
+<div class="zoomable">
+    <img class="img-zoomable" src="/projects/br-193-ep/pic_1.webp" alt="Unlock the Dock">
+</div>
+<div class="zoomable">
+    <img class="img-zoomable" src="/projects/br-193-ep/pic_2.webp" alt="Cameras">
+</div>
 
 ## Requirements
 

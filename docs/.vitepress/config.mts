@@ -11,8 +11,8 @@ export default defineConfig({
       { text: 'Roadmap',
         activeMatch: '/roadmap/',
         items: [
-          { text: 'November 2024', link: '/roadmap/2024/november/'},
-          { text: 'Februar 2025', link: '/roadmap/2025/februar/'}
+          { text: 'August 2026', link: '/roadmap/2026/august/'},
+          { text: 'November 2024', link: '/roadmap/2024/november/'}
         ]
       },
       { text: 'Projects', activeMatch: '/projects/', link: '/projects/' },
@@ -24,22 +24,36 @@ export default defineConfig({
     sidebar: [
       {
         text: 'Projects',
-        link: '/projects/',
         activeMatch: '/projects/',
         collapsed: false,
         items: [
-          { text: 'Route mods',
-            items: [
-              { text: 'Frankfurt-Fulda EEP', link: '/projects/frankfurt-fulda-eep' },
-            ]
-          },
           {
             text: 'Vehicle mods',
             items: [
-              { text: 'BR 146 SM', link: '/projects/br-146-sm' },
+              { text: 'BR 193 EP', link: '/projects/br-193-ep' },
               { text: 'BR 612 EP', link: '/projects/br-612-ep' },
-              { text: 'Austrian EMU', link: '/projects/austrian-emu' },
-              { text: 'Eanos', link: '/projects/eanos-mini-ep' },
+              { text: 'Bnrdzf 483.0 Soundmod', link: '/projects/bnrdzf-483'}
+            ]
+          }
+        ]
+      },
+      {
+        text: 'Roadmaps',
+        activeMatch: '/roadmap/',
+        collapsed: false,
+        items: [
+          {
+            text: '2026',
+            collapsed: false,
+            items: [
+              { text: 'August', link: '/roadmap/2026/august' },
+            ]
+          },
+          {
+            text: '2024',
+            collapsed: true,
+            items: [
+              { text: 'November', link: '/roadmap/2024/november' },
             ]
           }
         ]
@@ -55,7 +69,7 @@ export default defineConfig({
     ],
 
     footer: {
-      copyright: 'Copyright © 2024, <a href="https://github.com/Bahnpfuschhochschule">BPH</a>'
+      copyright: 'Copyright © 2026, <a href="https://github.com/Bahnpfuschhochschule">BPH</a>'
     },
 
     search: {

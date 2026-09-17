@@ -1,4 +1,4 @@
-// node_modules/@vue/devtools-shared/dist/index.js
+// node_modules/.pnpm/@vue+devtools-shared@7.7.10/node_modules/@vue/devtools-shared/dist/index.js
 var __create = Object.create;
 var __defProp = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
@@ -28,7 +28,7 @@ var __toESM = (mod, isNodeMode, target2) => (target2 = mod != null ? __create(__
   mod
 ));
 var init_esm_shims = __esm({
-  "../../node_modules/.pnpm/tsup@8.3.5_@microsoft+api-extractor@7.43.0_@types+node@22.9.0__@swc+core@1.5.29_jiti@2.0.0_po_lnt5yfvawfblpk67opvcdwbq7u/node_modules/tsup/assets/esm_shims.js"() {
+  "../../node_modules/.pnpm/tsup@8.4.0_@microsoft+api-extractor@7.51.1_@types+node@22.13.14__jiti@2.4.2_postcss@8.5_96eb05a9d65343021e53791dd83f3773/node_modules/tsup/assets/esm_shims.js"() {
     "use strict";
   }
 });
@@ -258,7 +258,7 @@ function isUrlString(str) {
 }
 var deepClone = (0, import_rfdc.default)({ circles: true });
 
-// node_modules/perfect-debounce/dist/index.mjs
+// node_modules/.pnpm/perfect-debounce@1.0.0/node_modules/perfect-debounce/dist/index.mjs
 var DEBOUNCE_DEFAULTS = {
   trailing: true
 };
@@ -315,7 +315,7 @@ async function _applyPromised(fn, _this, args) {
   return await fn.apply(_this, args);
 }
 
-// node_modules/hookable/dist/index.mjs
+// node_modules/.pnpm/hookable@5.5.3/node_modules/hookable/dist/index.mjs
 function flatHooks(configHooks, hooks2 = {}, parentName) {
   for (const key in configHooks) {
     const subHook = configHooks[key];
@@ -520,11 +520,11 @@ function createHooks() {
   return new Hookable();
 }
 
-// node_modules/birpc/dist/index.mjs
+// node_modules/.pnpm/birpc@2.9.0/node_modules/birpc/dist/index.mjs
 var { clearTimeout: clearTimeout2, setTimeout: setTimeout2 } = globalThis;
 var random = Math.random.bind(Math);
 
-// node_modules/@vue/devtools-kit/dist/index.js
+// node_modules/.pnpm/@vue+devtools-kit@7.7.10/node_modules/@vue/devtools-kit/dist/index.js
 var __create2 = Object.create;
 var __defProp2 = Object.defineProperty;
 var __getOwnPropDesc2 = Object.getOwnPropertyDescriptor;
@@ -545,16 +545,16 @@ var __copyProps2 = (to, from, except, desc) => {
   }
   return to;
 };
-var __toESM2 = (mod, isNodeMode, target22) => (target22 = mod != null ? __create2(__getProtoOf2(mod)) : {}, __copyProps2(
+var __toESM2 = (mod, isNodeMode, target21) => (target21 = mod != null ? __create2(__getProtoOf2(mod)) : {}, __copyProps2(
   // If the importer is in node compatibility mode or this is not an ESM
   // file that has been converted to a CommonJS file using a Babel-
   // compatible transform (i.e. "__esModule" has not been set), then set
   // "default" to the CommonJS "module.exports" for node compatibility.
-  isNodeMode || !mod || !mod.__esModule ? __defProp2(target22, "default", { value: mod, enumerable: true }) : target22,
+  isNodeMode || !mod || !mod.__esModule ? __defProp2(target21, "default", { value: mod, enumerable: true }) : target21,
   mod
 ));
 var init_esm_shims2 = __esm2({
-  "../../node_modules/.pnpm/tsup@8.3.5_@microsoft+api-extractor@7.43.0_@types+node@22.9.0__@swc+core@1.5.29_jiti@2.0.0_po_lnt5yfvawfblpk67opvcdwbq7u/node_modules/tsup/assets/esm_shims.js"() {
+  "../../node_modules/.pnpm/tsup@8.4.0_@microsoft+api-extractor@7.51.1_@types+node@22.13.14__jiti@2.4.2_postcss@8.5_96eb05a9d65343021e53791dd83f3773/node_modules/tsup/assets/esm_shims.js"() {
     "use strict";
   }
 });
@@ -2099,35 +2099,6 @@ init_esm_shims2();
 init_esm_shims2();
 init_esm_shims2();
 init_esm_shims2();
-function isReadonly(value) {
-  return !!(value && value[
-    "__v_isReadonly"
-    /* IS_READONLY */
-  ]);
-}
-function isReactive(value) {
-  if (isReadonly(value)) {
-    return isReactive(value[
-      "__v_raw"
-      /* RAW */
-    ]);
-  }
-  return !!(value && value[
-    "__v_isReactive"
-    /* IS_REACTIVE */
-  ]);
-}
-function isRef(r) {
-  return !!(r && r.__v_isRef === true);
-}
-function toRaw(observed) {
-  const raw = observed && observed[
-    "__v_raw"
-    /* RAW */
-  ];
-  return raw ? toRaw(raw) : observed;
-}
-var Fragment = Symbol.for("v-fgt");
 init_esm_shims2();
 function getComponentTypeName(options) {
   var _a25;
@@ -2151,19 +2122,6 @@ function getAppRecord(instance) {
     return instance.__VUE_DEVTOOLS_NEXT_APP_RECORD__;
   else if (instance.root)
     return instance.appContext.app.__VUE_DEVTOOLS_NEXT_APP_RECORD__;
-}
-async function getComponentId(options) {
-  const { app, uid, instance } = options;
-  try {
-    if (instance.__VUE_DEVTOOLS_NEXT_UID__)
-      return instance.__VUE_DEVTOOLS_NEXT_UID__;
-    const appRecord = await getAppRecord(app);
-    if (!appRecord)
-      return null;
-    const isRoot = appRecord.rootInstance === instance;
-    return `${appRecord.id}:${isRoot ? "root" : uid}`;
-  } catch (e) {
-  }
 }
 function isFragment(instance) {
   var _a25, _b25;
@@ -2194,151 +2152,17 @@ function getInstanceName(instance) {
     return fileName;
   return "Anonymous Component";
 }
+function getUniqueComponentId(instance) {
+  var _a25, _b25, _c;
+  const appId = (_c = (_b25 = (_a25 = instance == null ? void 0 : instance.appContext) == null ? void 0 : _a25.app) == null ? void 0 : _b25.__VUE_DEVTOOLS_NEXT_APP_RECORD_ID__) != null ? _c : 0;
+  const instanceId = instance === (instance == null ? void 0 : instance.root) ? "root" : instance.uid;
+  return `${appId}:${instanceId}`;
+}
 function getComponentInstance(appRecord, instanceId) {
   instanceId = instanceId || `${appRecord.id}:root`;
   const instance = appRecord.instanceMap.get(instanceId);
   return instance || appRecord.instanceMap.get(":root");
 }
-var StateEditor = class {
-  constructor() {
-    this.refEditor = new RefStateEditor();
-  }
-  set(object, path, value, cb) {
-    const sections = Array.isArray(path) ? path : path.split(".");
-    const markRef = false;
-    while (sections.length > 1) {
-      const section = sections.shift();
-      if (object instanceof Map)
-        object = object.get(section);
-      if (object instanceof Set)
-        object = Array.from(object.values())[section];
-      else object = object[section];
-      if (this.refEditor.isRef(object))
-        object = this.refEditor.get(object);
-    }
-    const field = sections[0];
-    const item = this.refEditor.get(object)[field];
-    if (cb) {
-      cb(object, field, value);
-    } else {
-      if (this.refEditor.isRef(item))
-        this.refEditor.set(item, value);
-      else if (markRef)
-        object[field] = value;
-      else
-        object[field] = value;
-    }
-  }
-  get(object, path) {
-    const sections = Array.isArray(path) ? path : path.split(".");
-    for (let i = 0; i < sections.length; i++) {
-      if (object instanceof Map)
-        object = object.get(sections[i]);
-      else
-        object = object[sections[i]];
-      if (this.refEditor.isRef(object))
-        object = this.refEditor.get(object);
-      if (!object)
-        return void 0;
-    }
-    return object;
-  }
-  has(object, path, parent = false) {
-    if (typeof object === "undefined")
-      return false;
-    const sections = Array.isArray(path) ? path.slice() : path.split(".");
-    const size = !parent ? 1 : 2;
-    while (object && sections.length > size) {
-      const section = sections.shift();
-      object = object[section];
-      if (this.refEditor.isRef(object))
-        object = this.refEditor.get(object);
-    }
-    return object != null && Object.prototype.hasOwnProperty.call(object, sections[0]);
-  }
-  createDefaultSetCallback(state) {
-    return (object, field, value) => {
-      if (state.remove || state.newKey) {
-        if (Array.isArray(object))
-          object.splice(field, 1);
-        else if (toRaw(object) instanceof Map)
-          object.delete(field);
-        else if (toRaw(object) instanceof Set)
-          object.delete(Array.from(object.values())[field]);
-        else Reflect.deleteProperty(object, field);
-      }
-      if (!state.remove) {
-        const target22 = object[state.newKey || field];
-        if (this.refEditor.isRef(target22))
-          this.refEditor.set(target22, value);
-        else if (toRaw(object) instanceof Map)
-          object.set(state.newKey || field, value);
-        else if (toRaw(object) instanceof Set)
-          object.add(value);
-        else
-          object[state.newKey || field] = value;
-      }
-    };
-  }
-};
-var RefStateEditor = class {
-  set(ref, value) {
-    if (isRef(ref)) {
-      ref.value = value;
-    } else {
-      if (ref instanceof Set && Array.isArray(value)) {
-        ref.clear();
-        value.forEach((v) => ref.add(v));
-        return;
-      }
-      const currentKeys = Object.keys(value);
-      if (ref instanceof Map) {
-        const previousKeysSet2 = new Set(ref.keys());
-        currentKeys.forEach((key) => {
-          ref.set(key, Reflect.get(value, key));
-          previousKeysSet2.delete(key);
-        });
-        previousKeysSet2.forEach((key) => ref.delete(key));
-        return;
-      }
-      const previousKeysSet = new Set(Object.keys(ref));
-      currentKeys.forEach((key) => {
-        Reflect.set(ref, key, Reflect.get(value, key));
-        previousKeysSet.delete(key);
-      });
-      previousKeysSet.forEach((key) => Reflect.deleteProperty(ref, key));
-    }
-  }
-  get(ref) {
-    return isRef(ref) ? ref.value : ref;
-  }
-  isRef(ref) {
-    return isRef(ref) || isReactive(ref);
-  }
-};
-var stateEditor = new StateEditor();
-init_esm_shims2();
-function getRootElementsFromComponentInstance(instance) {
-  if (isFragment(instance))
-    return getFragmentRootElements(instance.subTree);
-  if (!instance.subTree)
-    return [];
-  return [instance.subTree.el];
-}
-function getFragmentRootElements(vnode) {
-  if (!vnode.children)
-    return [];
-  const list = [];
-  vnode.children.forEach((childVnode) => {
-    if (childVnode.component)
-      list.push(...getRootElementsFromComponentInstance(childVnode.component));
-    else if (childVnode == null ? void 0 : childVnode.el)
-      list.push(childVnode.el);
-  });
-  return list;
-}
-init_esm_shims2();
-init_esm_shims2();
 function createRect() {
   const rect = {
     top: 0,
@@ -2414,6 +2238,26 @@ function getComponentBoundingRect(instance) {
     return getComponentBoundingRect(instance.subTree.component);
   else
     return DEFAULT_RECT;
+}
+init_esm_shims2();
+function getRootElementsFromComponentInstance(instance) {
+  if (isFragment(instance))
+    return getFragmentRootElements(instance.subTree);
+  if (!instance.subTree)
+    return [];
+  return [instance.subTree.el];
+}
+function getFragmentRootElements(vnode) {
+  if (!vnode.children)
+    return [];
+  const list = [];
+  vnode.children.forEach((childVnode) => {
+    if (childVnode.component)
+      list.push(...getRootElementsFromComponentInstance(childVnode.component));
+    else if (childVnode == null ? void 0 : childVnode.el)
+      list.push(childVnode.el);
+  });
+  return list;
 }
 var CONTAINER_ELEMENT_ID = "__vue-devtools-component-inspector__";
 var CARD_ELEMENT_ID = "__vue-devtools-component-inspector__card__";
@@ -2530,9 +2374,9 @@ function unhighlight() {
 }
 var inspectInstance = null;
 function inspectFn(e) {
-  const target22 = e.target;
-  if (target22) {
-    const instance = target22.__vueParentComponent;
+  const target21 = e.target;
+  if (target21) {
+    const instance = target21.__vueParentComponent;
     if (instance) {
       inspectInstance = instance;
       const el = instance.vnode.el;
@@ -2546,18 +2390,11 @@ function inspectFn(e) {
   }
 }
 function selectComponentFn(e, cb) {
-  var _a25;
   e.preventDefault();
   e.stopPropagation();
   if (inspectInstance) {
-    const app = (_a25 = activeAppRecord.value) == null ? void 0 : _a25.app;
-    getComponentId({
-      app,
-      uid: app.uid,
-      instance: inspectInstance
-    }).then((id) => {
-      cb(id);
-    });
+    const uniqueComponentId = getUniqueComponentId(inspectInstance);
+    cb(uniqueComponentId);
   }
 }
 var inspectComponentHighLighterSelectFn = null;
@@ -2667,10 +2504,159 @@ function getComponentInspector() {
 }
 init_esm_shims2();
 init_esm_shims2();
+function isReadonly(value) {
+  return !!(value && value[
+    "__v_isReadonly"
+    /* IS_READONLY */
+  ]);
+}
+function isReactive(value) {
+  if (isReadonly(value)) {
+    return isReactive(value[
+      "__v_raw"
+      /* RAW */
+    ]);
+  }
+  return !!(value && value[
+    "__v_isReactive"
+    /* IS_REACTIVE */
+  ]);
+}
+function isRef(r) {
+  return !!(r && r.__v_isRef === true);
+}
+function toRaw(observed) {
+  const raw = observed && observed[
+    "__v_raw"
+    /* RAW */
+  ];
+  return raw ? toRaw(raw) : observed;
+}
+var Fragment = Symbol.for("v-fgt");
+var StateEditor = class {
+  constructor() {
+    this.refEditor = new RefStateEditor();
+  }
+  set(object, path, value, cb) {
+    const sections = Array.isArray(path) ? path : path.split(".");
+    const markRef = false;
+    while (sections.length > 1) {
+      const section = sections.shift();
+      if (object instanceof Map)
+        object = object.get(section);
+      else if (object instanceof Set)
+        object = Array.from(object.values())[section];
+      else object = object[section];
+      if (this.refEditor.isRef(object))
+        object = this.refEditor.get(object);
+    }
+    const field = sections[0];
+    const item = this.refEditor.get(object)[field];
+    if (cb) {
+      cb(object, field, value);
+    } else {
+      if (this.refEditor.isRef(item))
+        this.refEditor.set(item, value);
+      else if (markRef)
+        object[field] = value;
+      else
+        object[field] = value;
+    }
+  }
+  get(object, path) {
+    const sections = Array.isArray(path) ? path : path.split(".");
+    for (let i = 0; i < sections.length; i++) {
+      if (object instanceof Map)
+        object = object.get(sections[i]);
+      else
+        object = object[sections[i]];
+      if (this.refEditor.isRef(object))
+        object = this.refEditor.get(object);
+      if (!object)
+        return void 0;
+    }
+    return object;
+  }
+  has(object, path, parent = false) {
+    if (typeof object === "undefined")
+      return false;
+    const sections = Array.isArray(path) ? path.slice() : path.split(".");
+    const size = !parent ? 1 : 2;
+    while (object && sections.length > size) {
+      const section = sections.shift();
+      object = object[section];
+      if (this.refEditor.isRef(object))
+        object = this.refEditor.get(object);
+    }
+    return object != null && Object.prototype.hasOwnProperty.call(object, sections[0]);
+  }
+  createDefaultSetCallback(state) {
+    return (object, field, value) => {
+      if (state.remove || state.newKey) {
+        if (Array.isArray(object))
+          object.splice(field, 1);
+        else if (toRaw(object) instanceof Map)
+          object.delete(field);
+        else if (toRaw(object) instanceof Set)
+          object.delete(Array.from(object.values())[field]);
+        else Reflect.deleteProperty(object, field);
+      }
+      if (!state.remove) {
+        const target21 = object[state.newKey || field];
+        if (this.refEditor.isRef(target21))
+          this.refEditor.set(target21, value);
+        else if (toRaw(object) instanceof Map)
+          object.set(state.newKey || field, value);
+        else if (toRaw(object) instanceof Set)
+          object.add(value);
+        else
+          object[state.newKey || field] = value;
+      }
+    };
+  }
+};
+var RefStateEditor = class {
+  set(ref, value) {
+    if (isRef(ref)) {
+      ref.value = value;
+    } else {
+      if (ref instanceof Set && Array.isArray(value)) {
+        ref.clear();
+        value.forEach((v) => ref.add(v));
+        return;
+      }
+      const currentKeys = Object.keys(value);
+      if (ref instanceof Map) {
+        const previousKeysSet2 = new Set(ref.keys());
+        currentKeys.forEach((key) => {
+          ref.set(key, Reflect.get(value, key));
+          previousKeysSet2.delete(key);
+        });
+        previousKeysSet2.forEach((key) => ref.delete(key));
+        return;
+      }
+      const previousKeysSet = new Set(Object.keys(ref));
+      currentKeys.forEach((key) => {
+        Reflect.set(ref, key, Reflect.get(value, key));
+        previousKeysSet.delete(key);
+      });
+      previousKeysSet.forEach((key) => Reflect.deleteProperty(ref, key));
+    }
+  }
+  get(ref) {
+    return isRef(ref) ? ref.value : ref;
+  }
+  isRef(ref) {
+    return isRef(ref) || isReactive(ref);
+  }
+};
+var stateEditor = new StateEditor();
+init_esm_shims2();
+init_esm_shims2();
 init_esm_shims2();
 var TIMELINE_LAYERS_STATE_STORAGE_ID = "__VUE_DEVTOOLS_KIT_TIMELINE_LAYERS_STATE__";
 function getTimelineLayersStateFromStorage() {
-  if (!isBrowser || typeof localStorage === "undefined" || localStorage === null) {
+  if (typeof window === "undefined" || !isBrowser || typeof localStorage === "undefined" || localStorage === null) {
     return {
       recordingState: false,
       mouseEventEnabled: false,
@@ -2680,7 +2666,7 @@ function getTimelineLayersStateFromStorage() {
       selected: ""
     };
   }
-  const state = localStorage.getItem(TIMELINE_LAYERS_STATE_STORAGE_ID);
+  const state = typeof localStorage.getItem !== "undefined" ? localStorage.getItem(TIMELINE_LAYERS_STATE_STORAGE_ID) : null;
   return state ? JSON.parse(state) : {
     recordingState: false,
     mouseEventEnabled: false,
@@ -2697,8 +2683,8 @@ var _a22;
 var _b2;
 (_b2 = (_a22 = target).__VUE_DEVTOOLS_KIT_TIMELINE_LAYERS) != null ? _b2 : _a22.__VUE_DEVTOOLS_KIT_TIMELINE_LAYERS = [];
 var devtoolsTimelineLayers = new Proxy(target.__VUE_DEVTOOLS_KIT_TIMELINE_LAYERS, {
-  get(target22, prop, receiver) {
-    return Reflect.get(target22, prop, receiver);
+  get(target21, prop, receiver) {
+    return Reflect.get(target21, prop, receiver);
   }
 });
 function addTimelineLayer(options, descriptor) {
@@ -2713,8 +2699,8 @@ var _a3;
 var _b3;
 (_b3 = (_a3 = target).__VUE_DEVTOOLS_KIT_INSPECTOR__) != null ? _b3 : _a3.__VUE_DEVTOOLS_KIT_INSPECTOR__ = [];
 var devtoolsInspector = new Proxy(target.__VUE_DEVTOOLS_KIT_INSPECTOR__, {
-  get(target22, prop, receiver) {
-    return Reflect.get(target22, prop, receiver);
+  get(target21, prop, receiver) {
+    return Reflect.get(target21, prop, receiver);
   }
 });
 var callInspectorUpdatedHook = debounce(() => {
@@ -2989,7 +2975,7 @@ function setActiveAppRecordId(id) {
   updateAllStates();
 }
 var devtoolsState = new Proxy(target[STATE_KEY], {
-  get(target22, property) {
+  get(target21, property) {
     if (property === "appRecords") {
       return devtoolsAppRecords;
     } else if (property === "activeAppRecordId") {
@@ -3001,13 +2987,13 @@ var devtoolsState = new Proxy(target[STATE_KEY], {
     }
     return target[STATE_KEY][property];
   },
-  deleteProperty(target22, property) {
-    delete target22[property];
+  deleteProperty(target21, property) {
+    delete target21[property];
     return true;
   },
-  set(target22, property, value) {
+  set(target21, property, value) {
     const oldState = { ...target[STATE_KEY] };
-    target22[property] = value;
+    target21[property] = value;
     target[STATE_KEY][property] = value;
     return true;
   }
@@ -3096,8 +3082,8 @@ var _a10;
 var _b10;
 (_b10 = (_a10 = target).__VUE_DEVTOOLS_KIT_PLUGIN_BUFFER__) != null ? _b10 : _a10.__VUE_DEVTOOLS_KIT_PLUGIN_BUFFER__ = [];
 var devtoolsPluginBuffer = new Proxy(target.__VUE_DEVTOOLS_KIT_PLUGIN_BUFFER__, {
-  get(target22, prop, receiver) {
-    return Reflect.get(target22, prop, receiver);
+  get(target21, prop, receiver) {
+    return Reflect.get(target21, prop, receiver);
   }
 });
 function _getSettings(settings) {
@@ -3163,16 +3149,6 @@ function setPluginSettings(pluginId, key, value) {
     /* SET_PLUGIN_SETTINGS */
   );
 }
-init_esm_shims2();
-init_esm_shims2();
-init_esm_shims2();
-init_esm_shims2();
-init_esm_shims2();
-init_esm_shims2();
-init_esm_shims2();
-init_esm_shims2();
-init_esm_shims2();
-init_esm_shims2();
 init_esm_shims2();
 var _a11;
 var _b11;
@@ -3396,9 +3372,13 @@ function callDevToolsPluginSetupFn(plugin, app) {
   }
   setupFn(api);
 }
-function registerDevToolsPlugin(app) {
-  if (target.__VUE_DEVTOOLS_KIT__REGISTERED_PLUGIN_APPS__.has(app) || devtoolsState.highPerfModeEnabled)
+function registerDevToolsPlugin(app, options) {
+  if (target.__VUE_DEVTOOLS_KIT__REGISTERED_PLUGIN_APPS__.has(app)) {
     return;
+  }
+  if (devtoolsState.highPerfModeEnabled && !(options == null ? void 0 : options.inspectingComponent)) {
+    return;
+  }
   target.__VUE_DEVTOOLS_KIT__REGISTERED_PLUGIN_APPS__.add(app);
   devtoolsPluginBuffer.forEach((plugin) => {
     callDevToolsPluginSetupFn(plugin, app);
@@ -3418,12 +3398,12 @@ var _a14;
 var _b14;
 (_b14 = (_a14 = target)[ROUTER_KEY]) != null ? _b14 : _a14[ROUTER_KEY] = {};
 var devtoolsRouterInfo = new Proxy(target[ROUTER_INFO_KEY], {
-  get(target22, property) {
+  get(target21, property) {
     return target[ROUTER_INFO_KEY][property];
   }
 });
 var devtoolsRouter = new Proxy(target[ROUTER_KEY], {
-  get(target22, property) {
+  get(target21, property) {
     if (property === "value") {
       return target[ROUTER_KEY];
     }
@@ -3570,7 +3550,7 @@ function createDevToolsApi(hooks2) {
     getComponentRenderCode(id) {
       const instance = getComponentInstance(activeAppRecord.value, id);
       if (instance)
-        return !((instance == null ? void 0 : instance.type) instanceof Function) ? instance.render.toString() : instance.type.toString();
+        return !(typeof (instance == null ? void 0 : instance.type) === "function") ? instance.render.toString() : instance.type.toString();
     },
     // scroll to component
     scrollToComponent(id) {
@@ -3581,14 +3561,14 @@ function createDevToolsApi(hooks2) {
     // get vue inspector
     getVueInspector: getComponentInspector,
     // toggle app
-    toggleApp(id) {
+    toggleApp(id, options) {
       const appRecord = devtoolsAppRecords.value.find((record) => record.id === id);
       if (appRecord) {
         setActiveAppRecordId(id);
         setActiveAppRecord(appRecord);
         normalizeRouterInfo(appRecord, activeAppRecord);
         callInspectorUpdatedHook();
-        registerDevToolsPlugin(appRecord.app);
+        registerDevToolsPlugin(appRecord.app, options);
       }
     },
     // inspect dom
@@ -3642,6 +3622,7 @@ var appRecordInfo = (_b17 = (_a17 = target).__VUE_DEVTOOLS_NEXT_APP_RECORD_INFO_
   id: 0,
   appIds: /* @__PURE__ */ new Set()
 };
+init_esm_shims2();
 function onDevToolsClientConnected(fn) {
   return new Promise((resolve) => {
     if (devtoolsState.connected && devtoolsState.clientConnected) {
@@ -3678,7 +3659,6 @@ function updateDevToolsClientDetected(params) {
 var _a18;
 var _b18;
 (_b18 = (_a18 = target).__VUE_DEVTOOLS_UPDATE_CLIENT_DETECTED__) != null ? _b18 : _a18.__VUE_DEVTOOLS_UPDATE_CLIENT_DETECTED__ = updateDevToolsClientDetected;
-init_esm_shims2();
 init_esm_shims2();
 init_esm_shims2();
 init_esm_shims2();
@@ -3996,7 +3976,7 @@ var classRule = compositeTransformation(isInstanceOfRegisteredClass, (clazz, sup
 }, (v, a, superJson) => {
   const clazz = superJson.classRegistry.getValue(a[1]);
   if (!clazz) {
-    throw new Error("Trying to deserialize unknown class - check https://github.com/blitz-js/superjson/issues/116#issuecomment-773996564");
+    throw new Error(`Trying to deserialize unknown class '${a[1]}' - check https://github.com/blitz-js/superjson/issues/116#issuecomment-773996564`);
   }
   return Object.assign(Object.create(clazz.prototype), v);
 });
@@ -4061,6 +4041,8 @@ var untransformValue = (json, type, superJson) => {
 };
 init_esm_shims2();
 var getNthKey = (value, n) => {
+  if (n > value.size)
+    throw new Error("index out of bounds");
   const keys = value.keys();
   while (n > 0) {
     keys.next();
@@ -4347,22 +4329,22 @@ function assignProp(carry, key, newVal, originalObject, includeNonenumerable) {
     });
   }
 }
-function copy(target22, options = {}) {
-  if (isArray2(target22)) {
-    return target22.map((item) => copy(item, options));
+function copy(target21, options = {}) {
+  if (isArray2(target21)) {
+    return target21.map((item) => copy(item, options));
   }
-  if (!isPlainObject3(target22)) {
-    return target22;
+  if (!isPlainObject3(target21)) {
+    return target21;
   }
-  const props = Object.getOwnPropertyNames(target22);
-  const symbols = Object.getOwnPropertySymbols(target22);
+  const props = Object.getOwnPropertyNames(target21);
+  const symbols = Object.getOwnPropertySymbols(target21);
   return [...props, ...symbols].reduce((carry, key) => {
     if (isArray2(options.props) && !options.props.includes(key)) {
       return carry;
     }
-    const val = target22[key];
+    const val = target21[key];
     const newVal = copy(val, options);
-    assignProp(carry, key, newVal, target22, options.nonenumerable);
+    assignProp(carry, key, newVal, target21, options.nonenumerable);
     return carry;
   }, {});
 }
@@ -4466,14 +4448,6 @@ init_esm_shims2();
 init_esm_shims2();
 init_esm_shims2();
 init_esm_shims2();
-init_esm_shims2();
-init_esm_shims2();
-init_esm_shims2();
-init_esm_shims2();
-init_esm_shims2();
-init_esm_shims2();
-init_esm_shims2();
-init_esm_shims2();
 var _a19;
 var _b19;
 (_b19 = (_a19 = target).__VUE_DEVTOOLS_KIT_MESSAGE_CHANNELS__) != null ? _b19 : _a19.__VUE_DEVTOOLS_KIT_MESSAGE_CHANNELS__ = [];
@@ -4492,9 +4466,6 @@ var _b23;
 var _a24;
 var _b24;
 (_b24 = (_a24 = target).__VUE_DEVTOOLS_KIT_BROADCAST_RPC_SERVER__) != null ? _b24 : _a24.__VUE_DEVTOOLS_KIT_BROADCAST_RPC_SERVER__ = null;
-init_esm_shims2();
-init_esm_shims2();
-init_esm_shims2();
 init_esm_shims2();
 init_esm_shims2();
 init_esm_shims2();

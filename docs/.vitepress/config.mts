@@ -31,12 +31,18 @@ export default defineConfig({
         collapsed: false,
         items: [
           {
-            text: 'Vehicle mods',
+            text: 'Vehicles',
             items: [
               { text: 'BR 140 LP', link: '/projects/br-140-lp' },
               { text: 'BR 193 EP', link: '/projects/br-193-ep' },
               { text: 'BR 612 EP', link: '/projects/br-612-ep' },
               { text: 'Bnrdzf 483.0 Soundmod', link: '/projects/bnrdzf-483'}
+            ]
+          },
+          {
+            text: 'Misc',
+            items: [
+              { text: 'LA Fix', link: '/projects/misc/la-fix.md' }
             ]
           }
         ]

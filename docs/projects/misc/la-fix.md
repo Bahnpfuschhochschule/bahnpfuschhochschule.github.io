@@ -5,6 +5,9 @@
 Here's a small fix provided by `@GERJUSILp`.
 This mod changes the German speed restriction signs to look more accurate.
 
+> [!IMPORTANT]
+> This Mod is only supported in Train Sim World 6! In TSW 7, it isn't needed anymore and causes errors.
+
 ## Changelog
 
 ### Update 2 (26.12.2025)

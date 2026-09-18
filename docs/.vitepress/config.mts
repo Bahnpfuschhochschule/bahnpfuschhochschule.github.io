@@ -42,6 +42,7 @@ export default defineConfig({
           {
             text: 'Misc',
             items: [
+              { text: 'Station PIS Boards', link: '/projects/misc/pis-boards.md' },
               { text: 'LA Fix', link: '/projects/misc/la-fix.md' }
             ]
           }

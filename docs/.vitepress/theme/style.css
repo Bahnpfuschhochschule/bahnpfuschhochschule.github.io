@@ -2,6 +2,38 @@ body {
     height: 100vh;
 }
 
+:root {
+    --vp-nav-bg-color: var(--vp-c-bg) !important;
+}
+
+#VPContent.is-home::before {
+  content: '';
+  position: fixed;
+  top: -20px;
+  left: -20px;
+  right: -20px;
+  bottom: -20px;
+  z-index: -1;
+  
+  background-image: url('/projects/br-403-ep/pic_1.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  filter: blur(8px);
+  pointer-events: none;
+}
+
+.dark #VPContent.is-home::before {
+    filter: blur(8px) brightness(0.5);
+}
+
+.VPNavBar.fill,
+.VPNavBar:not(.fill) {
+  background-color: var(--vp-c-bg) !important;
+  border-bottom: 1px solid var(--vp-c-divider) !important;
+}
+
 .video-container {
     position: relative;
     overflow: hidden;

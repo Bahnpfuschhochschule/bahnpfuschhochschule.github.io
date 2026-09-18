@@ -13,10 +13,6 @@ hero:
     - theme: alt
       text: Team
       link: /team
-  image:
-    src: "/bph_logo.png"
-    class: logo
-    alt: BPH Logo
 
 features:
   - title: August 2026 Roadmap

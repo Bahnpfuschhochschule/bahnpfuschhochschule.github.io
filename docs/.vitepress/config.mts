@@ -15,6 +15,7 @@ export default defineConfig({
           { text: 'August 2026', link: '/roadmap/2026/august/'},
           { text: 'December 2025', link: '/roadmap/2025/december/'},
           { text: 'August 2025', link: '/roadmap/2025/august/'},
+          { text: 'February 2025', link: '/roadmap/2025/february/'},
           { text: 'November 2024', link: '/roadmap/2024/november/'}
         ]
       },
@@ -66,7 +67,8 @@ export default defineConfig({
             collapsed: true,
             items: [
               { text: 'December', link: '/roadmap/2025/december'},
-              { text: 'August', link: '/roadmap/2025/august' }
+              { text: 'August', link: '/roadmap/2025/august' },
+              { text: 'February', link: '/roadmap/2025/february'}
             ]
           },
           {
